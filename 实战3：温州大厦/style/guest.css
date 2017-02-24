@@ -1,0 +1,34 @@
+﻿#contents h1{
+	margin-left: 20px;
+	margin-top: 20px;
+	background: url("../images/Message.gif") no-repeat left;
+	text-indent: -999px;
+}
+
+#contents p{
+	margin-left: 20px;
+	margin-top: 5px;
+	line-height: 5px;
+	
+}
+#contents input.text{
+	width:145px;
+	height: 16px;
+	line-height: 20px;
+}
+#contents textarea{
+	width:210px;
+	height: 100px;
+
+}
+#contents input.submit{
+	background:none;
+	border:1px solid #abadb3;
+	color: #666666;
+	width: 60px;
+	height: 25px;
+	line-height: 25px;
+}
+#contents input.submit:hover{
+	background: #e0e0e0;
+}

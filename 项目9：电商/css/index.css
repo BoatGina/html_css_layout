@@ -1,0 +1,117 @@
+.public-header{
+	height: 110px;
+	background: #fff;
+}
+.public-container{
+	position: relative;
+	margin: 0 auto;
+	width: 1100px;
+}
+.header-logo{
+	background:url("../images/logo.png");
+	float: left;
+	height: 54px;
+	width: 181px;
+	margin-top: 44px;
+}
+.public-container ul{
+	list-style-type: none;
+}
+.header-nav li.items{
+	display: inline-block;
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;
+	font-family: Microsoft New Tai Lue Bold;
+	font-size: 16px;
+	color: #3b3b3b；
+}
+.items a{
+	text-decoration: none;
+}
+.items a:hover{
+	text-decoration: underline;
+}
+.index-banner{
+	
+} 
+.index-banner .index-img{
+	overflow: hidden;
+	position: relative;
+}
+.index-banner .index-text{
+	position: absolute;
+	top: 320px;
+	left: 340px;
+
+}
+
+.index-banner .text-bottom{
+	font-size: 16px;
+	font-family: "Aleo";
+	color: rgb(255, 255, 255);
+	line-height: 3.75;
+	text-align: center;
+	position: relative;
+	left:0 ;
+	top:0 ;
+	z-index: 182;
+}
+.text-l{
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 140px;
+  top: 28.5px;
+  width: 40px;
+  height: 1px;
+  z-index: 184;
+}
+.text-r {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left:589px;
+  top: 28.5px;
+  width: 40px;
+  height: 1px;
+  z-index: 185;
+}
+
+
+.index-list{
+	
+}
+.index-list img{
+	
+}
+
+.public-footer{
+	height: 317px;
+	background: #3b3b3b;
+}
+.public-footer .footer-col{
+	padding-top: 100px;
+	margin-left: 100px;
+	position: relative;
+	float: left;
+	font-size: 16px;
+	font-family: Myriad Pro Regular;
+	line-height:1.8;
+	color: #fff;
+}
+.public-footer .footer-col a{
+	text-decoration: none;
+	color: #fff;
+}
+.public-footer .footer-col a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+

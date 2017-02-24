@@ -1,0 +1,32 @@
+﻿#contents img:first-of-type{
+	padding-top: 20px;
+	padding-left: 20px;
+}/*这个代码在全部的img中都实现了。。。*/
+#contents table img{
+	width: 250px;
+	height: 150px;
+	padding:0;
+}
+
+#contents p{
+	width: 230px;
+	height:35px;
+	line-height: 35px;
+	background: #eeeeee;
+	border-bottom: 1px solid orange;
+	text-align: center;
+	display: block;
+	margin-left: 30px;
+}
+#contents tr#move{
+	position: relative;
+	top: -10px;
+}
+#contents td{
+	background: green;
+}
+#contents tr.hh td{
+	background: red;
+
+}
+

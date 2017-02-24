@@ -1,0 +1,44 @@
+﻿#contents h1{
+	background: url("../images/job.gif") no-repeat left;
+	text-indent: -999px;
+	margin-top: 20px;
+	margin-left: 20px;
+	}
+#contents table{
+	margin-top: 10px;
+	margin-left: 20px;
+	text-align: center;
+	font-size: 12px;
+	color: #666666;
+	width: 90%;
+	height: 105px;
+	border-collapse:collapse;
+}
+#contents th{
+	font-weight:normal;
+	border: 1px solid #ccc;
+	background: #eeeeee;
+}
+#contents td{
+	border: 1px solid #ccc;
+
+}
+#contents tr:hover{
+	background: #cccc00;
+}
+#contents a{
+	text-decoration: none;
+	color: #0066ff;
+}
+#contents a:hover{
+	text-decoration: underline;
+}
+#contents p{
+	clear: both;
+	text-align: center;
+	font-size: 12px;
+	display: block;
+	height:80px;
+	line-height: 80px;
+
+}

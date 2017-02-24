@@ -1,0 +1,262 @@
+﻿*{
+	margin:0;
+	padding:0;
+}
+body{
+	width:760px;
+	margin:0 auto;
+	background: url("../images/bg.gif");
+	font-size: 12px;
+}
+#header{
+	height: 303px;
+	background: url("../images/header.jpg");
+}
+#header ul{
+	position: relative;
+	top: 272px;
+	left:32px;
+	width: 685px;
+	cursor: pointer;
+	text-indent: -9999px;
+}
+#sidebar{
+	height: 420px;
+	width: 203px;
+	float: left;
+	background: url("../images/sidebar_down.jpg") no-repeat left bottom;
+}
+#sidebar h1{
+	background: url("../images/sidebar_header.jpg") no-repeat;
+	text-indent: -9999px;
+	height: 54px;
+	width:203px;
+}
+#sidebar div{
+	height: 360px;
+	width: 100%;
+	background: url("../images/sidebar_bg.jpg") repeat-y;
+}
+#sidebar div ul{
+	padding-left: 30px;
+	padding-top: 5px;
+	letter-spacing: 1px;
+	padding-bottom: 10px;
+	line-height: 150%;
+}
+
+#sidebar div ul li:hover{
+	color: red;
+	cursor: pointer;
+}
+#sidebar div dl{
+	width: 90%;
+	padding-left: 15px;
+	letter-spacing: 1px;
+}
+#sidebar div dl dt{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #666;
+}
+#sidebar div dl dd{
+	padding-bottom: 5px;
+	height: 16px;
+	line-height:16px;
+}
+#sidebar div dl dd label{
+	cursor: pointer;
+	display: block;
+}
+#sidebar div dl dd.submit{
+	padding-top: 5px;
+
+}
+#sidebar div dl dd.submit input{
+	cursor: pointer;
+}
+#sidebar div dl dd:hover{
+	cursor: pointer;
+}
+#news{
+	height: 420px;
+	width: 557px;
+	float: right;
+	background: url("../images/news_down.jpg") no-repeat left bottom;
+}
+#news h1{
+	background: url("../images/news_header.jpg");
+	text-indent: -999px;
+	width: 557px;
+	height: 80px;
+}
+#news div#contents{
+	background: url("../images/news_bg.jpg") ;
+	width: 100%;
+	height: 328px;
+}
+#news div#contents dl{
+	padding-left:40px;
+	padding-top: 5px;
+	width: 160px;
+}
+#news div#contents dd{
+	width: 140px;
+	text-align: center;
+	height: 28px;
+	padding-top: 5px;
+}
+#news div#contents dt{
+	width: 145px;
+	height: 110px;
+	border: 1px solid #a3720b;
+	background: #eed8a7;
+}
+#news div#contents dt img{
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#news div#contents div#right{
+	width: 331px;
+	height: 309px;
+	background: url("../images/news_listbg.jpg") no-repeat;
+	float: right;
+	padding-right: 25px;
+	position: relative;
+	top: -20px;
+}
+#news div#contents div#right ul{
+	padding-left: 30px;
+	padding-top: 5px;
+}
+#news div#contents div#right ul li{
+	line-height: 200%;
+}
+#news div#contents div#right ul li:hover{
+	color: red;
+}
+#news div#contents div#right ul li strong{
+	position: relative;
+	right: -60px;
+	color: green;
+	font-weight: normal;
+}
+#news div#contents div#bottom{
+	background: url("../images/news_call.jpg") no-repeat;
+	width: 510px;
+	height: 34px;
+	margin-left: 30px;
+	position: relative;
+	top: -5px;
+	text-align: center;
+	line-height: 34px;
+}
+
+#pics{
+	height: 256px;
+	clear: both;
+	background: url("../images/pics_bg.jpg") no-repeat;
+
+}
+#pics h1{
+	background: url("../images/pics_header.jpg") no-repeat;
+	width: 73px;
+	height: 246px;
+	float: left;
+	margin-left: 8px;
+	margin-top: 5px;
+	text-indent: -9999px;
+}
+#pics dl{
+	float: left;
+	width: 145px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+#pics dt{
+	width: 145px;
+	height: 110px;
+	background: #eed8a7;
+	border: 1px solid #666;
+}
+#pics dt img{
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#pics div#picsul{
+	background: url("../images/pics_more.jpg") no-repeat;
+	float: right;
+	width: 665px;
+	height: 91px;
+	margin-top:10px;
+	margin-right: 10px;
+}
+#pics div#picsul ul{
+	width: 300px;
+	letter-spacing: 1px;
+	margin-left: 30px;
+	margin-top: 10px;
+	line-height: 150%;
+}
+#pics div#picsul ul#ulone{
+	float: left;
+}
+#pics div#picsul ul#ultwo{
+		float: right;
+}
+#pics div#picsul ul span{
+	position: relative;
+	right: -60px;
+	color: #666;
+}
+#pics div#picsul ul li:hover{
+	color: red;
+}
+
+#con{
+	height: 373px;
+	background: #e8cb8f;
+
+}
+#con div.conall{
+	width: 253px;
+	height: 373px;
+	background:url("../images/cartoon_down.jpg") no-repeat left bottom; 
+	float: left;
+	
+}
+#con ul.conul{
+	width: 180px;
+	margin-left: 30px;
+	line-height: 200%;
+}
+#con ul.conul li:hover{
+	color: red;
+}
+#con div.connoc{
+	width: 253px;
+	height: 297px;
+	background: url("../images/cartoon_bg.jpg") repeat-y;
+}
+#con  h1{
+	background: url("../images/cartoon_header.jpg") no-repeat;
+	width: 253px;
+	height: 71px;
+	text-indent: -9999px;
+}
+#con div#two h1{
+
+}
+#con div#three h1{
+
+}
+#footer{
+	height: 66px;
+	width: 760px;
+	background: url("../images/footer.jpg");
+	text-align: center;
+	line-height: 66px;
+	letter-spacing: 1px;
+	clear: both;
+
+}
